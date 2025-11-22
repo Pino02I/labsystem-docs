@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labsystem-docs"
+version = "1.0.0"
+description = "Documentation for LABsystem Blender Addon"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "Giuseppe Iuliano"}
+]
+keywords = ["blender", "addon", "camera", "render", "documentation"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Documentation",
+]
+
+[project.urls]
+Documentation = "https://labsystem.readthedocs.io"
+Repository = "https://github.com/yourusername/labsystem-docs"
+
+[tool.sphinx]
+source-dir = "docs"
+build-dir = "docs/_build"
