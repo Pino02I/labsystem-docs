@@ -1,6 +1,6 @@
 .. image:: static/logo.png
    :align: center
-   :width: 200px
+   :width: 100px
    :alt: LABsystem Logo
 
 LABsystem Documentation
