@@ -1,4 +1,4 @@
-.. image:: _static/LABsystem_logo.png
+.. image:: _static/logo.png
    :align: center
    :width: 200px
    :alt: LABsystem Logo
