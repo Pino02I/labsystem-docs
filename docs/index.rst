@@ -1,8 +1,3 @@
-.. image:: _static/logo.png
-   :align: center
-   :width: 100px
-   :alt: LABsystem Logo
-
 LABsystem Documentation
 =======================
 
