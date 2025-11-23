@@ -32,7 +32,7 @@ html_favicon = None
 
 # Theme options
 html_theme_options = {
-    'logo_only': False,
+    'logo_only': True,
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
