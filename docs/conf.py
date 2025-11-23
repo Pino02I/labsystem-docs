@@ -27,12 +27,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = '_static/logo.png'
+# html_logo = '_static/logo.png'  # ← Logo commentato/rimosso
 html_favicon = None
 
 # Theme options
 html_theme_options = {
-    'logo_only': True,  # ← Cambiato da False a True
+    'logo_only': False,  # ← Rimesso a False dato che non c'è più il logo
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
