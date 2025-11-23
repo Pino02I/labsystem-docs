@@ -29,8 +29,10 @@ Getting Started
 ---------------
 
 .. toctree::
-   :maxdepth: 1
-   
+   :maxdepth: 2
+   :caption: Contents:
+
+   LABsystem <index>   
    installation
    interface
 
